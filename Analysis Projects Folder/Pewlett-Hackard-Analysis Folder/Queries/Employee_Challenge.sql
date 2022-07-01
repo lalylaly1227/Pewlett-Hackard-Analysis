@@ -45,7 +45,6 @@ SELECT * FROM retiring_titles;
 
 -- Write a query to create a Mentorship Eligibility table that holds the 
 -- employees who are eligible to participate in a mentorship program (steps 1-11)
-drop table mentorship_eligibilty;
 
 SELECT DISTINCT ON(e.emp_no) e.emp_no, 
     e.first_name, 
