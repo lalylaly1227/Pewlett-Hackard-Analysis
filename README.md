@@ -35,19 +35,21 @@ Qualified, Retirement-Ready Employees Table:
 ## Resources
 
 ### Data Sources: 
-•	supplied:
+supplied:
 departments.csv, 
 dept_emp.cvs,
 dept_manager.csv, 
 employees.csv, 
 salaries.csv, 
 titles.csv
-•	created:
+
+created:
 retirement_titles.csv,
 unique_titles.csv,
 retiring_titles.csv,
 mentorship_eligibility.csv
-•	additional tables created:
+
+additional tables created:
 unique_dept.csv,
 get_staff.csv
 		
