@@ -54,7 +54,7 @@ unique_dept.csv,
 get_staff.csv
 		
 ### Software:
-Online resources: PostgreSQL, pgAdmin
+Online resources: PostgreSQL, pgAdmin, QuickDBD
 
 ## Results
 Found the number of employees that would be retiring, and the amount of potential new jobs needed to fill those positions.  Also created a mentoring eligible table to train all the new hires. We prepared the manager for the “silver tsunami.” The challenge was to delete the duplicate titles to create a more realistic list.
