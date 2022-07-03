@@ -15,8 +15,8 @@ WHERE e.birth_date BETWEEN '1952-01-01' AND '1955-12-31'
 order by e.emp_no;
 
 --determine number of records
-select count(*)
-from retirement_titles;
+SELECT count(*)
+FROM retirement_titles;
 
 --check the retirement_titles table
 SELECT * FROM retirement_titles
@@ -34,8 +34,8 @@ WHERE to_date >= '9999-01-01'
 ORDER BY rt.emp_no, rt.title DESC;
 
 --determine number of records
-select count(*)
-from unique_titles;
+SELECT count(*)
+FROM unique_titles;
 
 --check the unique_titles table
 SELECT * FROM unique_titles
@@ -50,8 +50,8 @@ GROUP BY title
 ORDER BY COUNT(title) DESC;
 
 --determine number of records
-select count(*)
-from retiring_titles;
+SELECT count(*)
+FROM retiring_titles;
 
 --check the retiring_titles table
 SELECT * FROM retiring_titles;
@@ -77,8 +77,8 @@ WHERE e.birth_date BETWEEN '1965-01-01' AND '1965-12-31' and de.to_date >= '9999
 ORDER BY e.emp_no;
 
 --determine number of records
-select count(*)
-from mentorship_eligibilty
+SELECT count(*)
+FROM mentorship_eligibilty
 
 --check the mentorship_eligibilty table
 SELECT * FROM  mentorship_eligibilty
@@ -117,8 +117,8 @@ GROUP BY ut.dept_name, ut.title, ut.last_name
 ORDER BY ut.dept_name DESC;
 
 --determine number of records
-select count(*)
-from get_staff;
+SELECT count(*)
+FROM get_staff;
 
 --check the get_staff table
 SELECT * FROM  get_staff
